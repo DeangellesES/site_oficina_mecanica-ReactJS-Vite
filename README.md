@@ -26,5 +26,5 @@
   <li>styled-components usado para a estilização com aninhamentos</li>
   <li>fiveicon na aba do topo </li>
   <li>rooks react utilizados para criar efeito bonito no cabecalho da página com evento de scroll juntamente com operador ternário</li>
-  <li>rook react utilizado para criar efeito de mostrar e esconder iformações ao clicar no icone, ao clica rno icone ele tem o efeito de girar, items atribuidos em array de objetos e rederizado com o método map() e utilizando operador ternário</li>
+  <li>rook react utilizado para criar efeito de mostrar e esconder iformações ao clicar no icone, ao clica rno icone ele tem o efeito de girar, items atribuidos em array de objetos e rederizado com o método map() e utilizando operador ternário na seção de perguntas frequentes</li>
 </ul>
