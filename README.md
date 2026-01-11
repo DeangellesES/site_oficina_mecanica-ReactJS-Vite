@@ -12,9 +12,11 @@
 
 <h2>✨ Funcionalidades</h2>
 <ul>
+  <li>Informações sobre a Oficina</li>
   <li>Mostrar Serviços</li>
-  <li>Informações de contatos, redes sociais e horário de funcionamento</li>
-  <li>Informações sobre a Clínica</li>
+  <li>Mostrar processos de atendimento</li>
+  <li>Informações de contatos, localização e horário de funcionamento</li>
+  <li>Mostrar perguntas mais frequentes respondidas</li>
 </ul>
 
 <h2>⚙️ Detalhes Técnicos</h2>
