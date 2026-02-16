@@ -117,7 +117,7 @@ export default function Topo() {
     const [ready, setReady] = useState(false)
 
     return (
-        <SecaoTopo>
+        <SecaoTopo id="inicio">
             <Swiper
                 modules={[
                     Navigation,
@@ -146,8 +146,8 @@ export default function Topo() {
                             <h1>Cuidado Premium para o Seu Veículo</h1>
                             <p>Oficina especializada em manutenção preventiva e corretiva com equipamentos de última geração e equipe altamente qualificada</p>
                             <SecaoTopoConteudoUmContainerBotoes>
-                                <TopoBtnUm href=""><LuPhone />Agendar Serviço</TopoBtnUm>
-                                <TopoBtnDois href="">Nossos Serviços</TopoBtnDois>
+                                <TopoBtnUm href="https://api.whatsapp.com/send?phone=13935019293" target="_blank"><LuPhone />Agendar Serviço</TopoBtnUm>
+                                <TopoBtnDois href="#servicos">Nossos Serviços</TopoBtnDois>
                             </SecaoTopoConteudoUmContainerBotoes>
 
                             <SecaoTopoConteudoUmContainerBaixo>
@@ -166,8 +166,8 @@ export default function Topo() {
                             <h1>Diagnóstico Computadorizado Avançado</h1>
                             <p>Equipamentos modernos para identificar e solucionar problemas do seu veículo com precisão e rapidez</p>
                             <SecaoTopoConteudoUmContainerBotoes>
-                                <TopoBtnUm href=""><LuPhone />Agendar Diagnostico</TopoBtnUm>
-                                <TopoBtnDois href="">Saiba Mais</TopoBtnDois>
+                                <TopoBtnUm href="https://api.whatsapp.com/send?phone=13935019293" target="_blank"><LuPhone />Agendar Diagnostico</TopoBtnUm>
+                                <TopoBtnDois href="#destaque">Saiba Mais</TopoBtnDois>
                             </SecaoTopoConteudoUmContainerBotoes>
 
                             <SecaoTopoConteudoUmContainerBaixo>
@@ -186,8 +186,8 @@ export default function Topo() {
                             <h1>Manutenção e Reparo de Motor</h1>
                             <p>Equipe técnica especializada em manutenção preventiva e corretiva de motores de todas as marcas</p>
                             <SecaoTopoConteudoUmContainerBotoes>
-                                <TopoBtnUm href=""><LuPhone />Solicitar Orçamento</TopoBtnUm>
-                                <TopoBtnDois href="">Ver Serviços</TopoBtnDois>
+                                <TopoBtnUm href="https://api.whatsapp.com/send?phone=13935019293" target="_blank"><LuPhone />Solicitar Orçamento</TopoBtnUm>
+                                <TopoBtnDois href="#servicos">Ver Serviços</TopoBtnDois>
                             </SecaoTopoConteudoUmContainerBotoes>
 
                             <SecaoTopoConteudoUmContainerBaixo>

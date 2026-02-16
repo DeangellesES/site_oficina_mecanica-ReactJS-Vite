@@ -95,7 +95,7 @@ const SecaoDestaqueContainerCaixaBaixoParagrafo = styled.p`
 
 export default function Destaque() {
     return (
-        <SecaoDestaque>
+        <SecaoDestaque id="destaque">
             <h1>Serviços em Destaque</h1>
             <SecaoDestaqueParagrafo>Conheça nossos principais serviços com mais detalhes</SecaoDestaqueParagrafo>
             <SecaoDestaqueContainer>

@@ -74,7 +74,7 @@ const SecaoQualidadeDireitaBaixo = styled.div`
 
 export default function Qualidade() {
     return (
-        <SecaoQualidade>
+        <SecaoQualidade id="qualidade">
             <section>
                 <h1>Qualidade, Confiança e Transparência</h1>
                 <SecaoQualidadeParagrafoUm>Somos uma oficina especializada com mais de 15 anos de experiência no mercado automotivo. Nossa equipe de profissionais qualificados e certificados utiliza equipamentos de última geração para garantir o melhor serviço para o seu veículo.</SecaoQualidadeParagrafoUm>

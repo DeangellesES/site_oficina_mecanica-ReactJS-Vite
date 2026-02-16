@@ -71,7 +71,6 @@ const SecaoCabecalhoBtn = styled.a`
         }
 `
 
-
 export default function Cabecalho() {
 
     const [scrolled, setScrolled] = useState(false)
@@ -97,18 +96,18 @@ export default function Cabecalho() {
             </SecaoCabecalhoTitulo>
 
             <nav>
-                
-                    <a href="">Início</a>
-                    <a href="">Serviços</a>
-                    <a href="">Processo</a>
-                    <a href="">Sobre Nós</a>
-                    <a href="">Galeria</a>
-                    <a href="">FAQ</a>
-                    <a href="">Contato</a>
-                
+
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#processo">Processo</a>
+                <a href="#qualidade">Sobre Nós</a>
+                <a href="#destaque">Galeria</a>
+                <a href="#perguntas">FAQ</a>
+                <a href="#contato">Contato</a>
+
             </nav>
 
-            <SecaoCabecalhoBtn href=""><LuPhone /> Agendar Serviço</SecaoCabecalhoBtn>
+            <SecaoCabecalhoBtn href="https://api.whatsapp.com/send?phone=13935019293"><LuPhone /> Agendar Serviço</SecaoCabecalhoBtn>
         </SecaoCabecalho>
     )
 }

@@ -55,7 +55,7 @@ const SecaoProcessoContainer = styled.div`
 
 export default function Processo () {
     return(
-        <SecaoProcesso>
+        <SecaoProcesso id="processo">
             <h1>Nosso Processo</h1>
             <SecaoProcessoParagrafo>Passo a passo de como cuidamos do seu veículo com excelência</SecaoProcessoParagrafo>
 

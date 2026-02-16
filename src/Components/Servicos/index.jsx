@@ -60,7 +60,7 @@ const SecaoServicosContainer = styled.div`
 
 export default function Servicos() {
     return(
-        <SecaoServicos>
+        <SecaoServicos id="servicos">
             <h1>Nossos Serviços</h1>
             <SecaoServicosParagrafo>Soluções completas para todas as necessidades do seu veículo</SecaoServicosParagrafo>
             <SecaoServicosContainer>
@@ -70,7 +70,7 @@ export default function Servicos() {
                     <p>Revisões completas para manter seu veículo em perfeito estado</p>
                 </div>
                 <div>
-                    <BsSpeedometer2 className="servicos-icone"/>
+                    <BsSpeedometer2 className="servicos-icone"/> 
                     <h3>Diagnóstico Eletrônico</h3>
                     <p>Equipamentos modernos para identificar problemas com precisão</p>
                 </div>

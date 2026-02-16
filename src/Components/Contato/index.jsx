@@ -110,7 +110,7 @@ const SecaoContatoImagem = styled.img`
 
 export default function Contato() {
     return (
-        <SecaoContato>
+        <SecaoContato id="contato">
             <h1>Entre em Contato</h1>
             <SecaoContatoParagrafo>Estamos prontos para cuidar do seu veículo</SecaoContatoParagrafo>
 

@@ -92,7 +92,7 @@ export default function Perguntas() {
 
 
     return (
-        <SecaoPerguntas>
+        <SecaoPerguntas id="perguntas">
             <h1>Perguntas Frequentes</h1>
             <SecaoPerguntasParagrafo>Tire suas dúvidas sobre nossos serviços</SecaoPerguntasParagrafo>
             <SecaoPerguntasContainer>
